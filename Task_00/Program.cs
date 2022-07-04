@@ -85,3 +85,6 @@ switch (num)
     case 7: Console.WriteLine("Воскресенье"); break;
     default: Console.WriteLine("Нет такого дня недели"); break;
 }
+
+int e = 4 % 3;
+Console.WriteLine(e);
