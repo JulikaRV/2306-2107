@@ -4,6 +4,26 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
+// Console.WriteLine("Введите число");
+// int number = Convert.ToInt32(Console.ReadLine());
+// System.Console.WriteLine(number > 99 ? number.ToString()[2] : "третьей цифры нет");
+
+
+int getDigit(int k)
+{
+    while (k >= 1000) k = k / 10;
+    int n = k % 10;
+    return n;
+}
+
+
 Console.WriteLine("Введите число");
-int number = Convert.ToInt32(Console.ReadLine());
-System.Console.WriteLine(number > 99 ? number.ToString()[2] : "третьей цифры нет");
+int digit = Convert.ToInt32(Console.ReadLine());
+int newDigit = 0;
+
+if (digit < 100) System.Console.WriteLine("третьей цифры нет");
+else newDigit = getDigit(digit);
+System.Console.WriteLine(newDigit);
+
+
+
