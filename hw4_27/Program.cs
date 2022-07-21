@@ -7,7 +7,7 @@
 
 // 9012 -> 12
 
-System.Console.WriteLine("Введите число");
+System.Console.WriteLine("Введите число > 10");
 int num = int.Parse(Console.ReadLine());
 
 int Sum(int number)

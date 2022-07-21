@@ -8,9 +8,9 @@
 var rnd = new Random();
 
 int num1 = rnd.Next(2, 10);
-System.Console.WriteLine($" number 1 is => {num1}");
+System.Console.WriteLine($" Число A => {num1}");
 int num2 = rnd.Next(1, 10);
-System.Console.WriteLine($" number 2 is => {num2}");
+System.Console.WriteLine($" Число B => {num2}");
 
 
 int Pow(int num, int n)
@@ -24,4 +24,4 @@ int Pow(int num, int n)
 }
 
 int result = Pow(num1, num2);
-System.Console.WriteLine(result);
+System.Console.WriteLine($"Число A в натуральной степени B = {result}");
