@@ -20,10 +20,10 @@ int x2 = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("Y2: ");
 int y2 = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("Z2: ");
-int Z2 = Convert.ToInt32(Console.ReadLine());
+int z2 = Convert.ToInt32(Console.ReadLine());
 
 
 
-double sum = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2) + Math.Pow((x2 - x1), 2));
+double sum = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2) + Math.Pow((z2 - z1), 2));
 
 System.Console.WriteLine($"Расстояние между двух точек в 3D пространстве равно {Math.Round(sum, 2)}");

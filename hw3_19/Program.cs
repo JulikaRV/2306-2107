@@ -26,9 +26,9 @@ if (numOrigin >= 10000 && numOrigin <= 99999)
     System.Console.WriteLine("Реверсное число = " + numReverse);
     if (numReverse == number)
     {
-        System.Console.WriteLine($"{numReverse} является палиндромом числа {number}");
+        System.Console.WriteLine($"{numReverse} является палиндромом ");
     }
-    else System.Console.WriteLine($"{numReverse} не является палиндромом числа {number}");
+    else System.Console.WriteLine($"{numReverse} не является палиндромом ");
 }
 else System.Console.WriteLine("Число не является пятизначным числом");
 

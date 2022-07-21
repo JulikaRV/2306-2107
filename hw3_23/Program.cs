@@ -12,8 +12,7 @@ System.Console.WriteLine();
 
 for (int i = 1; i <= num; i++)
 {
-    System.Console.WriteLine($"{i,2}  = {i * i * i,8}");
-
+    System.Console.WriteLine($" куб числа {i,2}  = {i * i * i,8}");
 }
 
 

@@ -4,7 +4,7 @@ int firstDigit = rnd.Next(1, 100);
 System.Console.WriteLine($"Random number 1 from 10...99 is => {firstDigit}");
 
 int secondDigit = rnd.Next(1, 100);
-secondDigit.Next(1, 100);
+// secondDigit.Next(1, 100);
 
 System.Console.WriteLine($"Random number 1 from 10...99 is => {secondDigit}");
 
